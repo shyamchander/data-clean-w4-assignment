@@ -35,19 +35,19 @@ The original data set was downloaded and tidied:
     - "Mag" with Magnitude
     - "mean()" with Average
     - "std()" with StandardDeviation
-* Saved the tidied data set as "TidyDataSet.csv"
+* Saved the tidied data set as "TidyDataSet.txt"
 * Summarized the dataset
   - Grouped all the dataset first by SubjectId and then by Activity for each subject
   - Generated Averages of all the columns by Activity for each subject
-* Saved the summarized data set as "SummaryTidyDataSet.csv"
+* Saved the summarized data set as "SummaryTidyDataSet.txt"
 
 ## The Tidied Data Set includes
 * Readme.md
 * CodeBook.md - Contains a brief description of the attributes in the Data Set
-* TidyDataSet.csv - CSV formatted file containing the tidied dataset as per the attribute definition in the CodeBook
-* SummaryTidyDataSet.csv - CSV formatted file containing summarized averages of the tidy dataset as per the attribute defintion in the CodeBook
 * load_analysis.R - source script to download the data file and unzip in "analysis"" folder. The timestamp of the file determines when the file was downloaded.
 * run_analysis.R - source script to analyze the files and tidy the data (Refer comments in script for details on analysis and tidying activites)
+* Generated TidyDataSet.txt - file containing the tidied dataset as per the attribute definition in the CodeBook
+* Generated SummaryTidyDataSet.txt - file containing summarized averages of the tidy dataset as per the attribute defintion in the CodeBook
 
 ##Notes analyzing the original data
 

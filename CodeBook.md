@@ -2,8 +2,8 @@
 
 ## Table of contents:
 * [Data Component Summary](#data-component-summary)
-* [Attribute definitions in TidyDataSet](#attribute-definitions-in-tidydataset)
-* [Attribute definitions in SummaryTidyDataSet](#attribute-definitions-in-summarytidydataset.csv)
+* [Attribute definitions for Summary Tidy Data Set - Step 5](#attribute-definitions-in-summarytidydataset.csv)
+* [Attribute definitions for Tidy Data Set - Step 4](#attribute-definitions-in-tidydataset)
 
 ---
 
@@ -18,6 +18,288 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.  
+
+---
+
+##Attribute definitions in SummaryTidyDataSet.csv
+
+####subject
+* Identifier for the subject (measurement for)
+* Integer value 1-30
+
+####activityName
+* Activity in the measurement (for the subject)
+* Possible Values:
+** Walking
+** WalkingUpstairs
+** WalkingDownstairs
+** Sitting
+** Standing
+** Laying
+
+####AverageOfTimeBodyAccelerometerAverage.X
+* Average of all the Time domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerAverage.Y
+* Average of all the Time domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerAverage.Z
+* Average of all the Time domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerStandardDeviation.X
+* Average of all the Time domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerStandardDeviation.Y
+* Average of all the Time domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerStandardDeviation.Z
+* Average of all the Time domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerAverage.X
+* Average of all the Time domain signals for the Gravity Acceleratometer Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerAverage.Y
+* Average of all the Time domain signals for the Gravity Acceleratometer Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerAverage.Z
+* Average of all the Time domain signals for the Gravity Acceleratometer Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerStandardDeviation.X
+* Average of all the Time domain signals for the Gravity Acceleratometer Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerStandardDeviation.Y
+* Average of all the Time domain signals for the Gravity Acceleratometer Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerStandardDeviation.Z
+* Average of all the Time domain signals for the Gravity Acceleratometer Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkAverage.X
+* Average of all the Time domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkAverage.Y
+* Average of all the Time domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkAverage.Z
+* Average of all the Time domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkStandardDeviation.X
+* Average of all the Time domain signals for the Body Acceleratometer Jerk Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkStandardDeviation.Y
+* Average of all the Time domain signals for the Body Acceleratometer Jerk Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkStandardDeviation.Z
+* Average of all the Time domain signals for the Body Acceleratometer Jerk Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeAverage.X
+* Average of all the Time domain signals for the Body Gyroscope Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeAverage.Y
+* Average of all the Time domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeAverage.Z
+* Average of all the Time domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeStandardDeviation.X
+* Average of all the Time domain signals for the Body Gyroscope Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeStandardDeviation.Y
+* Average of all the Time domain signals for the Body Gyroscope Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeStandardDeviation.Z
+* Average of all the Time domain signals for the Body Gyroscope Standard Deviation Measurements of Axial Signals along the Y for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkAverage.X
+* Average of all the Time domain signals for the Body Gyroscope Jerk Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkAverage.Y
+* Average of all the Time domain signals for the Body Gyroscope Jerk Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkAverage.Z
+* Average of all the Time domain signals for the Body Gyroscope Jerk Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkStandardDeviation.X
+* Average of all the Time domain signals for the Body Gyroscope Jerk Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkStandardDeviation.Y
+* Average of all the Time domain signals for the Body Gyroscope Jerk Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkStandardDeviation.Z
+* Average of all the Time domain signals for the Body Gyroscope Jerk Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerMagnitudeAverage
+* Average of all the Time domain signals for the Body Accelerometer Magnitude Average Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerMagnitudeStandardDeviation
+* Average of all the Time domain signals for the Body Accelerometer Magnitude Standard Deviation Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerMagnitudeAverage
+* Average of all the Time domain signals for the Gravity Accelerometer Magnitude Average Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeGravityAccelerometerMagnitudeStandardDeviation
+* Average of all the Time domain signals for the Gravity Accelerometer Magnitude Standard Deviation Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkMagnitudeAverage
+* Average of all the Time domain signals for the Body Accelerometer Jerk Magnitude Average Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyAccelerometerJerkMagnitudeStandardDeviation
+* Average of all the Time domain signals for the Body Accelerometer Jerk Magnitude Standard Deviation Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeMagnitudeAverage
+* Average of all the Time domain signals for the Body Gyroscope Magnitude Average Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeMagnitudeStandardDeviation
+* Average of all the Time domain signals for the Body Gyroscope Magnitude Standard Deviation Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkMagnitudeAverage
+* Average of all the Time domain signals for the Body Gyroscope Jerk Magnitude Average Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfTimeBodyGyroscopeJerkMagnitudeStandardDeviation
+* Average of all the Time domain signals for the Body Gyroscope Jerk Magnitude Standard Deviation Measurements for the subject and activity
+* Units - Seconds
+
+####AverageOfFrequencyBodyAccelerometerAverage.X
+* Average of all the Frequency domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerAverage.Y
+* Average of all the Frequency domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerAverage.Z
+* Average of all the Frequency domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerStandardDeviation.X
+* Average of all the Frequency domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerStandardDeviation.Y
+* Average of all the Frequency domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerStandardDeviation.Z
+* Average of all the Frequency domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerJerkAverage.X
+* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerJerkAverage.Y
+* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerJerkAverage.Z
+* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerJerkStandardDeviation.X
+* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Standard Deviations Measurements of Axial Signals along the X direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerJerkStandardDeviation.Y
+* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Standard Deviations Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerJerkStandardDeviation.Z
+* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Standard Deviations Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyGyroscopeAverage.X
+* Average of all the Frequency domain signals for the Body Gyroscope Average Measurements of Axial Signals along the X direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyGyroscopeAverage.Y
+* Average of all the Frequency domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyGyroscopeAverage.Z
+* Average of all the Frequency domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyGyroscopeStandardDeviation.X
+* Average of all the Frequency domain signals for the Body Gyroscope Standard Deviations Measurements of Axial Signals along the X direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyGyroscopeStandardDeviation.Y
+* Average of all the Frequency domain signals for the Body Gyroscope Standard Deviations Measurements of Axial Signals along the Y direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyGyroscopeStandardDeviation.Z
+* Average of all the Frequency domain signals for the Body Gyroscope Standard Deviations Measurements of Axial Signals along the Z direction for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerMagnitudeAverage
+* Average of all the Frequency domain signals for the Body Accelerometer Magnitude Average Measurements for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyAccelerometerMagnitudeStandardDeviation
+* Average of all the Frequency domain signals for the Body Accelerometer Magnitude Standard Deviation Measurements for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyBodyAccelerometerJerkMagnitudeAverage
+* Average of all the Frequency domain signals for the Body Accelerometer Jerk Magnitude Average Measurements for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyBodyAccelerometerJerkMagnitudeStandardDeviation
+* Average of all the Frequency domain signals for the Body Accelerometer Jerk Magnitude Standard Deviation Measurements for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyBodyGyroscopeMagnitudeAverage
+* Average of all the Frequency domain signals for the Body Gyroscope Magnitude Average Measurements for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyBodyGyroscopeMagnitudeStandardDeviation
+* Average of all the Frequency domain signals for the Body Gyroscope Magnitude Standard Deviation Measurements for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyBodyGyroscopeJerkMagnitudeAverage
+* Average of all the Frequency domain signals for the Body Gyroscope Jerk Magnitude Average Measurements for the subject and activity
+* Units - radians/second
+
+####AverageOfFrequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+* Average of all the Frequency domain signals for the Body Gyroscope Jerk Standard Deviation Measurements for the subject and activity
+* Units - radians/second
 
 ---
 
@@ -311,288 +593,6 @@ Identifier for the activit (measurement for)
 
 ####FrequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation
 * Frequency domain signals for the Body Gyroscope Jerk Standard Deviation Measurements for the subject and activity
-* Units - radians/second
-
----
-
-##Attribute definitions in SummaryTidyDataSet.csv
-
-####subject
-* Identifier for the subject (measurement for)
-* Integer value 1-30
-
-####activityName
-* Activity in the measurement (for the subject)
-* Possible Values:
-** Walking
-** WalkingUpstairs
-** WalkingDownstairs
-** Sitting
-** Standing
-** Laying
-
-####AverageOfTimeBodyAccelerometerAverage.X
-* Average of all the Time domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerAverage.Y
-* Average of all the Time domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerAverage.Z
-* Average of all the Time domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerStandardDeviation.X
-* Average of all the Time domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerStandardDeviation.Y
-* Average of all the Time domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerStandardDeviation.Z
-* Average of all the Time domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerAverage.X
-* Average of all the Time domain signals for the Gravity Acceleratometer Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerAverage.Y
-* Average of all the Time domain signals for the Gravity Acceleratometer Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerAverage.Z
-* Average of all the Time domain signals for the Gravity Acceleratometer Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerStandardDeviation.X
-* Average of all the Time domain signals for the Gravity Acceleratometer Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerStandardDeviation.Y
-* Average of all the Time domain signals for the Gravity Acceleratometer Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerStandardDeviation.Z
-* Average of all the Time domain signals for the Gravity Acceleratometer Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkAverage.X
-* Average of all the Time domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkAverage.Y
-* Average of all the Time domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkAverage.Z
-* Average of all the Time domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkStandardDeviation.X
-* Average of all the Time domain signals for the Body Acceleratometer Jerk Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkStandardDeviation.Y
-* Average of all the Time domain signals for the Body Acceleratometer Jerk Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkStandardDeviation.Z
-* Average of all the Time domain signals for the Body Acceleratometer Jerk Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeAverage.X
-* Average of all the Time domain signals for the Body Gyroscope Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeAverage.Y
-* Average of all the Time domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeAverage.Z
-* Average of all the Time domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeStandardDeviation.X
-* Average of all the Time domain signals for the Body Gyroscope Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeStandardDeviation.Y
-* Average of all the Time domain signals for the Body Gyroscope Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeStandardDeviation.Z
-* Average of all the Time domain signals for the Body Gyroscope Standard Deviation Measurements of Axial Signals along the Y for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkAverage.X
-* Average of all the Time domain signals for the Body Gyroscope Jerk Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkAverage.Y
-* Average of all the Time domain signals for the Body Gyroscope Jerk Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkAverage.Z
-* Average of all the Time domain signals for the Body Gyroscope Jerk Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkStandardDeviation.X
-* Average of all the Time domain signals for the Body Gyroscope Jerk Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkStandardDeviation.Y
-* Average of all the Time domain signals for the Body Gyroscope Jerk Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkStandardDeviation.Z
-* Average of all the Time domain signals for the Body Gyroscope Jerk Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerMagnitudeAverage
-* Average of all the Time domain signals for the Body Accelerometer Magnitude Average Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerMagnitudeStandardDeviation
-* Average of all the Time domain signals for the Body Accelerometer Magnitude Standard Deviation Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerMagnitudeAverage
-* Average of all the Time domain signals for the Gravity Accelerometer Magnitude Average Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeGravityAccelerometerMagnitudeStandardDeviation
-* Average of all the Time domain signals for the Gravity Accelerometer Magnitude Standard Deviation Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkMagnitudeAverage
-* Average of all the Time domain signals for the Body Accelerometer Jerk Magnitude Average Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyAccelerometerJerkMagnitudeStandardDeviation
-* Average of all the Time domain signals for the Body Accelerometer Jerk Magnitude Standard Deviation Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeMagnitudeAverage
-* Average of all the Time domain signals for the Body Gyroscope Magnitude Average Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeMagnitudeStandardDeviation
-* Average of all the Time domain signals for the Body Gyroscope Magnitude Standard Deviation Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkMagnitudeAverage
-* Average of all the Time domain signals for the Body Gyroscope Jerk Magnitude Average Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfTimeBodyGyroscopeJerkMagnitudeStandardDeviation
-* Average of all the Time domain signals for the Body Gyroscope Jerk Magnitude Standard Deviation Measurements for the subject and activity
-* Units - Seconds
-
-####AverageOfFrequencyBodyAccelerometerAverage.X
-* Average of all the Frequency domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerAverage.Y
-* Average of all the Frequency domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerAverage.Z
-* Average of all the Frequency domain signals for the Body Acceleratometer Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerStandardDeviation.X
-* Average of all the Frequency domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the X direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerStandardDeviation.Y
-* Average of all the Frequency domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerStandardDeviation.Z
-* Average of all the Frequency domain signals for the Body Acceleratometer Standard Deviation Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerJerkAverage.X
-* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerJerkAverage.Y
-* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerJerkAverage.Z
-* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerJerkStandardDeviation.X
-* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Standard Deviations Measurements of Axial Signals along the X direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerJerkStandardDeviation.Y
-* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Standard Deviations Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerJerkStandardDeviation.Z
-* Average of all the Frequency domain signals for the Body Acceleratometer Jerk Standard Deviations Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyGyroscopeAverage.X
-* Average of all the Frequency domain signals for the Body Gyroscope Average Measurements of Axial Signals along the X direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyGyroscopeAverage.Y
-* Average of all the Frequency domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyGyroscopeAverage.Z
-* Average of all the Frequency domain signals for the Body Gyroscope Average Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyGyroscopeStandardDeviation.X
-* Average of all the Frequency domain signals for the Body Gyroscope Standard Deviations Measurements of Axial Signals along the X direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyGyroscopeStandardDeviation.Y
-* Average of all the Frequency domain signals for the Body Gyroscope Standard Deviations Measurements of Axial Signals along the Y direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyGyroscopeStandardDeviation.Z
-* Average of all the Frequency domain signals for the Body Gyroscope Standard Deviations Measurements of Axial Signals along the Z direction for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerMagnitudeAverage
-* Average of all the Frequency domain signals for the Body Accelerometer Magnitude Average Measurements for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyAccelerometerMagnitudeStandardDeviation
-* Average of all the Frequency domain signals for the Body Accelerometer Magnitude Standard Deviation Measurements for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyBodyAccelerometerJerkMagnitudeAverage
-* Average of all the Frequency domain signals for the Body Accelerometer Jerk Magnitude Average Measurements for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyBodyAccelerometerJerkMagnitudeStandardDeviation
-* Average of all the Frequency domain signals for the Body Accelerometer Jerk Magnitude Standard Deviation Measurements for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyBodyGyroscopeMagnitudeAverage
-* Average of all the Frequency domain signals for the Body Gyroscope Magnitude Average Measurements for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyBodyGyroscopeMagnitudeStandardDeviation
-* Average of all the Frequency domain signals for the Body Gyroscope Magnitude Standard Deviation Measurements for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyBodyGyroscopeJerkMagnitudeAverage
-* Average of all the Frequency domain signals for the Body Gyroscope Jerk Magnitude Average Measurements for the subject and activity
-* Units - radians/second
-
-####AverageOfFrequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation
-* Average of all the Frequency domain signals for the Body Gyroscope Jerk Standard Deviation Measurements for the subject and activity
 * Units - radians/second
 
 ---
