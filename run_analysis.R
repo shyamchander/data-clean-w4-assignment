@@ -101,7 +101,7 @@ newDataSet$activityId<-NULL
 colnames(newDataSet)[-c(1,2)]<-paste("AverageOf",colnames(newDataSet)[-c(1,2)],sep='')
 
 #Write old and new data set to disk
-write.table(mDataSet, "TidyDataSet.csv", row.names=FALSE)
+write.table(mDataSet, "TidyDataSet.txt", row.names=FALSE)
 write.table(newDataSet, "SummaryTidyDataSet.txt", row.names=FALSE)
 
 #Cleanup
