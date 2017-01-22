@@ -1,6 +1,6 @@
 # Data Cleaning Assignment Week 4
 
-The data set is dervied and tidied from the data made available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The data set is dervied and tidied from the data made available at [1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Per the original data set documentation:
 ---
